@@ -15,7 +15,6 @@ function fold() {
     result.innerHTML = foldResult + "cm";
   }
 }
-
 function whyNot() {
   let why = document.getElementById("why");
 
