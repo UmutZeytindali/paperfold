@@ -25,3 +25,6 @@ function whyNot() {
     why.innerText = "Why?";
   }
 }
+
+export function fold();
+export function whyNot();
