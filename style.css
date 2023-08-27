@@ -1,0 +1,63 @@
+* {
+  font-family: Cascadia Code;
+}
+
+body {
+  background-color: rgb(32, 32, 45);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: static;
+  top: 0;
+}
+
+.logo {
+  font-weight: 700;
+  color: rgb(190, 182, 170);
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  color: rgb(190, 182, 170);
+  cursor: pointer;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+.main-container {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: rgb(190, 182, 170);
+}
+
+#times {
+  text-decoration: none;
+  height: 3 * px;
+  background-color: transparent;
+  border: none;
+  width: 100px;
+  color: rgb(190, 182, 170);
+  text-align: center;
+  font-size: 28px;
+  outline: none;
+}
+
+#result {
+  color: rgb(48, 107, 107);
+}
+
+@media only screen and (max-width: 680px) {
+  .main-container {
+    display: inline;
+    inline-size: 20px;
+  }
+}
